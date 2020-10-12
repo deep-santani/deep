@@ -1,0 +1,26 @@
+# Python3 program for the above approach 
+  
+# Function to find average of cubes 
+def findAverageOfCube(n): 
+  
+    # Storing sum of cubes 
+    # of numbers in sum 
+    sum = 0
+  
+    # Calculate sum of cubes 
+    for i in range(1, n + 1): 
+        sum += i * i * i 
+  
+    # Return average 
+    return round(sum / n, 6) 
+  
+# Driver Code 
+if __name__ == '__main__': 
+  
+    # Given Number 
+    n = 3
+  
+    # Function Call 
+    print(findAverageOfCube(n)) 
+  
+# This code is contributed by Ritik kumar tiwari 
